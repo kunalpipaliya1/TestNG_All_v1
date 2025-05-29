@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" strict="true">
+	<Appenders>
+		<Appender type="Console" name="STDOUT">
+			<Layout type="PatternLayout"
+				pattern="%d{HH:mm:ss.SSS} [%t]%-5level %logger{36} - %msg%n" />
+		</Appender>
+
+		<Appender type="File" name="file" fileName="C:\Users\Nmsworks\Documents\KunalLearning\Project\TestNG_All\src\test\resources\app.log">
+			<Layout type="PatternLayout"
+				pattern="%d{HH:mm:ss.SSS} [%t]%-5level %logger{36} - %msg%n" />
+		</Appender>
+	</Appenders>
+
+
+	<Loggers>
+		<Root level="all"> // Here, All means all logs will print, if we select level "error" then only error logs will be print
+			<AppenderRef ref="file" /> 	// 1. ref = 'STDOUT' then it will print in console, 2. ref = 'file' then it will print in file which you set in filename location. it's destination mark
+		</Root>
+	</Loggers>
+</Configuration>
