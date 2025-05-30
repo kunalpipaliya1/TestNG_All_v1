@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Test 1 log]]>
+    </line>
+    <line>
+      <![CDATA[Test 1 another log]]>
+    </line>
+    <line>
+      <![CDATA[Test 1 another log]]>
+    </line>
+    <line>
+      <![CDATA[Test 2 log]]>
+    </line>
+    <line>
+      <![CDATA[Test 3 log]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-05-29T15:57:16 IST" name="Default suite" finished-at="2025-05-29T15:57:31 IST" duration-ms="14351">
+  <suite started-at="2025-05-30T14:49:12 IST" name="Default suite" finished-at="2025-05-30T14:49:12 IST" duration-ms="59">
     <groups>
     </groups>
-    <test started-at="2025-05-29T15:57:16 IST" name="Default test" finished-at="2025-05-29T15:57:31 IST" duration-ms="14351">
-      <class name="com.example.tests.One_statement_fill_form">
-        <test-method signature="main()[pri:0, instance:com.example.tests.One_statement_fill_form@40005471]" started-at="2025-05-29T15:57:16 IST" name="main" finished-at="2025-05-29T15:57:31 IST" duration-ms="14301" status="PASS">
+    <test started-at="2025-05-30T14:49:12 IST" name="Default test" finished-at="2025-05-30T14:49:12 IST" duration-ms="59">
+      <class name="com.example.tests.TestNG_Reports">
+        <test-method signature="Testcase01()[pri:0, instance:com.example.tests.TestNG_Reports@7a8c8dcf]" started-at="2025-05-30T14:49:12 IST" name="Testcase01" finished-at="2025-05-30T14:49:12 IST" duration-ms="8" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Test 1 log]]>
+            </line>
+            <line>
+              <![CDATA[Test 1 another log]]>
+            </line>
+            <line>
+              <![CDATA[Test 1 another log]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- main -->
-      </class> <!-- com.example.tests.One_statement_fill_form -->
+        </test-method> <!-- Testcase01 -->
+        <test-method signature="Testcase02()[pri:0, instance:com.example.tests.TestNG_Reports@7a8c8dcf]" started-at="2025-05-30T14:49:12 IST" name="Testcase02" finished-at="2025-05-30T14:49:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test 2 log]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Testcase02 -->
+        <test-method signature="Testcase03()[pri:0, instance:com.example.tests.TestNG_Reports@7a8c8dcf]" started-at="2025-05-30T14:49:12 IST" name="Testcase03" finished-at="2025-05-30T14:49:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test 3 log]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Testcase03 -->
+      </class> <!-- com.example.tests.TestNG_Reports -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
